@@ -3,179 +3,220 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Công Ty TNHH An Phát</title>
+    <title>An Phát Vũng Tàu – Thi công nhôm kính, vách ngăn vệ sinh compact</title>
+    <meta
+      name="description"
+      content="Công ty TNHH Gia Công Thương Mại An Phát Vũng Tàu: thi công nhôm Xingfa, vách ngăn vệ sinh compact, cửa lưới chống côn trùng. Khảo sát tận nơi, báo giá nhanh. Gọi 0937 093 898."
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Ảnh xem trước khi chia sẻ link qua Zalo / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:site_name" content="An Phát Vũng Tàu" />
+    <meta property="og:title" content="An Phát Vũng Tàu – Thi công nhôm kính & vách ngăn" />
+    <meta
+      property="og:description"
+      content="Nhôm Xingfa, vách ngăn vệ sinh compact, cửa lưới chống côn trùng. Khảo sát tận nơi – báo giá nhanh."
+    />
+    <meta property="og:url" content="https://congtyanphat.top/" />
+    <meta property="og:image" content="https://congtyanphat.top/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body id="top">
     <header class="site-header">
       <div class="container header-inner">
-        <!-- Logo -->
-        <a class="logo" href="#top">Công ty TNHH Gia Công An Phát</a>
+        <a class="logo" href="#top" aria-label="An Phát Vũng Tàu – về đầu trang">
+          <span class="logo-mark" aria-hidden="true">AP</span>
+          <span class="logo-text">
+            <strong>An Phát Vũng Tàu</strong>
+            <small>Nhôm kính • Vách ngăn</small>
+          </span>
+        </a>
 
-        <!-- Nút menu (mobile) -->
-        <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false">
-          ☰
-        </button>
-
-        <!-- Menu -->
-        <nav class="main-nav">
+        <nav class="main-nav" id="main-nav" aria-label="Menu chính">
           <a href="#dichvu">Dịch vụ</a>
           <a href="#congtrinh">Công trình</a>
           <a href="#vatlieu">Vật liệu</a>
           <a href="#lienhe">Liên hệ</a>
         </nav>
 
-        <!-- Nút -->
-        <a class="btn-contact" href="#lienhe">Nhận báo giá</a>
+        <div class="header-actions">
+          <a class="btn btn-primary btn-sm" href="#lienhe">Nhận báo giá</a>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Mở menu"
+            aria-controls="main-nav"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
       </div>
     </header>
 
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-text">
-          <h1>Thi công nhôm & vách ngăn chuyên nghiệp</h1>
+          <h1>Thi công nhôm &amp; vách ngăn chuyên nghiệp</h1>
           <p>
             Khảo sát tận nơi • Báo giá nhanh • Thi công đúng tiến độ • Bảo hành
             rõ ràng
           </p>
 
           <div class="hero-actions">
-            <a class="btn-primary" href="#lienhe">Nhận báo giá</a>
-            <a class="btn-outline" href="#congtrinh">Xem công trình</a>
+            <a class="btn btn-primary" href="tel:0937093898">📞 Gọi 0937 093 898</a>
+            <a class="btn btn-outline" href="#congtrinh">Xem công trình</a>
           </div>
         </div>
 
         <div class="hero-media">
-          <img src="images/hero.jpg" alt="Công trình An Phát" />
+          <img
+            src="images/hero.jpg"
+            alt="Hệ lam nhôm che nắng do An Phát thi công"
+            width="1108"
+            height="1477"
+            fetchpriority="high"
+          />
         </div>
       </div>
     </section>
 
-    <main class="container">
-
-  <!-- Giới thiệu chung -->
-  <section class="section about">
-    <h2>Giới thiệu về An Phát</h2>
-    <p class="section-desc">
-      Công ty TNHH An Phát chuyên thi công nhôm, vách ngăn và hoàn thiện công trình
-      cho nhà ở, văn phòng, showroom và các công trình dân dụng.
-    </p>
-
-    <p>
-      Với phương châm <strong>làm đúng – làm kỹ – làm có trách nhiệm</strong>,
-      An Phát luôn đặt chất lượng và sự hài lòng của khách hàng lên hàng đầu.
-    </p>
-  </section>
-
-  <!-- Giới thiệu thành viên -->
-  <section class="section team">
-    <h2>Nhân sự phụ trách</h2>
-
-    <div class="team-card">
-      <div class="team-avatar">
-        <img src="images/team/toan.jpg" alt="Ông Trần Văn Toản">
-      </div>
-
-      <div class="team-info">
-        <h3>Ông Trần Văn Toản</h3>
-        <p class="team-role">
-          Giám sát công trình & Tư vấn báo giá
-        </p>
-
-        <p>
-          Phụ trách khảo sát thực tế, tư vấn phương án thi công,
-          lập báo giá và giám sát chất lượng công trình trong suốt quá trình thi công.
-        </p>
-      </div>
-    </div>
-  </section>
-
-
-      <section id="dichvu" class="section">
-        <h2>Dịch vụ</h2>
-        <p class="section-desc">Các hạng mục An Phát nhận thi công.</p>
-
-        <div class="grid-3">
-          <div class="card">
-            <h3>Vách ngăn compact</h3>
-            <p>Thi công văn phòng, showroom, nhà ở. Đẹp – chắc – gọn.</p>
+    <main>
+      <!-- Giới thiệu + nhân sự -->
+      <section class="section" id="gioithieu">
+        <div class="container about-grid">
+          <div class="about-text">
+            <h2>Giới thiệu về An Phát</h2>
+            <p class="section-desc">
+              <strong>Công ty TNHH Gia Công Thương Mại An Phát Vũng Tàu</strong>
+              chuyên thi công nhôm, vách ngăn và hoàn thiện công trình cho nhà ở,
+              văn phòng, showroom và các công trình dân dụng.
+            </p>
+            <p>
+              Với phương châm <strong>làm đúng – làm kỹ – làm có trách nhiệm</strong>,
+              An Phát luôn đặt chất lượng và sự hài lòng của khách hàng lên hàng đầu.
+            </p>
+            <ul class="commit-list">
+              <li>Khảo sát tận nơi, tư vấn phương án phù hợp ngân sách</li>
+              <li>Báo giá rõ ràng từng hạng mục trước khi thi công</li>
+              <li>Thi công đúng tiến độ, bảo hành rõ ràng</li>
+            </ul>
           </div>
 
-          <div class="card">
-            <h3>Cửa lưới chống côn trùng</h3>
-            <p>Cửa đi, cửa sổ, cửa lùa. Tư vấn mẫu theo nhu cầu.</p>
-          </div>
+          <aside class="team-card" aria-labelledby="team-title">
+            <h3 id="team-title" class="eyebrow">Nhân sự phụ trách</h3>
+            <div class="team-row">
+              <div class="team-avatar">
+                <img
+                  src="images/team/toan.jpg"
+                  alt="Ông Trần Văn Toản"
+                  width="717"
+                  height="960"
+                  loading="lazy"
+                />
+              </div>
+              <div class="team-info">
+                <h4>Ông Trần Văn Toản</h4>
+                <p class="team-role">Giám sát công trình &amp; Tư vấn báo giá</p>
+              </div>
+            </div>
+            <p>
+              Phụ trách khảo sát thực tế, tư vấn phương án thi công, lập báo giá và
+              giám sát chất lượng công trình trong suốt quá trình thi công.
+            </p>
+            <a class="btn btn-outline btn-block" href="tel:0937093898">📞 Gọi tư vấn: 0937 093 898</a>
+          </aside>
+        </div>
+      </section>
 
-          <div class="card">
-            <h3>Nhôm Xingfa</h3>
-            <p></Canvas>Các công trình như khu nghỉ dưỡng đến nhà xưởng công nghiệp và đến nhà biệt thư, nhà phố, văn phòng công ty….</p>
-          </div>
+      <section id="dichvu" class="section section-alt">
+        <div class="container">
+          <h2>Dịch vụ</h2>
+          <p class="section-desc">Các hạng mục An Phát nhận thi công.</p>
 
-          <div class="card">
-            <h3>Thi công theo yêu cầu</h3>
-            <p>Khảo sát tận nơi, báo giá nhanh, tiến độ rõ ràng.</p>
+          <div class="cards-grid cards-4">
+            <div class="card">
+              <h3>Vách ngăn compact</h3>
+              <p>Thi công văn phòng, showroom, nhà ở. Đẹp – chắc – gọn.</p>
+            </div>
+
+            <div class="card">
+              <h3>Cửa lưới chống côn trùng</h3>
+              <p>Cửa đi, cửa sổ, cửa lùa. Tư vấn mẫu theo nhu cầu.</p>
+            </div>
+
+            <div class="card">
+              <h3>Nhôm Xingfa</h3>
+              <p>
+                Cho mọi công trình: khu nghỉ dưỡng, nhà xưởng, biệt thự, nhà phố,
+                văn phòng công ty.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>Thi công theo yêu cầu</h3>
+              <p>Khảo sát tận nơi, báo giá nhanh, tiến độ rõ ràng.</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="congtrinh" class="section section-alt">
+      <section id="congtrinh" class="section">
         <div class="container">
           <h2>Công trình đã thi công</h2>
-          <p class="section-desc">
-            Một số hình ảnh thực tế
-          </p>
+          <p class="section-desc">Một số hình ảnh thực tế.</p>
 
-          <div class="projects-grid">
-            <!-- 1 -->
+          <div class="cards-grid cards-3">
             <article class="project-card">
-              <img src="images/ct-1.jpg" alt="Vách ngăn văn phòng" />
+              <img src="images/ct-1.jpg" alt="Vách ngăn compact văn phòng" width="960" height="1280" loading="lazy" />
               <div class="project-body">
                 <h3>Vách ngăn văn phòng</h3>
                 <p>Thi công vách compact • Vũng Tàu</p>
               </div>
             </article>
 
-            <!-- 2 -->
             <article class="project-card">
-              <img src="images/ct-2.jpg" alt="Cửa nhôm kính nhà phố" />
+              <img src="images/ct-2.jpg" alt="Cửa nhôm chống côn trùng nhà phố" width="720" height="960" loading="lazy" />
               <div class="project-body">
                 <h3>Cửa nhôm chống côn trùng nhà phố</h3>
                 <p>Hệ cửa lùa • Vũng Tàu</p>
               </div>
             </article>
 
-            <!-- 4 -->
             <article class="project-card">
-              <img src="images/ct-4.jpg" alt="Vách ngăn nhà vệ sinh" />
+              <img src="images/ct-4.jpg" alt="Vách ngăn nhà vệ sinh compact" width="960" height="1280" loading="lazy" />
               <div class="project-body">
                 <h3>Vách ngăn nhà vệ sinh</h3>
                 <p>Chống ẩm • Bền • Gọn</p>
               </div>
             </article>
 
-            <!-- 5 -->
             <article class="project-card">
-              <img src="images/ct-5.jpg" alt="Cửa sổ nhôm kính" />
+              <img src="images/ct-5.jpg" alt="Cửa sổ nhôm" width="1108" height="1477" loading="lazy" />
               <div class="project-body">
                 <h3>Cửa sổ nhôm</h3>
                 <p>Lấy sáng tốt • Thoáng</p>
               </div>
             </article>
 
-              <!-- 5 -->
             <article class="project-card">
-              <img src="images/ct-3.jpg" alt="Cửa sổ nhôm kính" />
+              <img src="images/ct-3.jpg" alt="Cửa lùa lưới chống muỗi" width="960" height="1280" loading="lazy" />
               <div class="project-body">
-                <h3>Cửa lùa chống mũi</h3>
-                <p>An toàn • Thoải Mái</p>
+                <h3>Cửa lùa chống muỗi</h3>
+                <p>An toàn • Thoải mái</p>
               </div>
             </article>
 
-            <!-- 6 -->
             <article class="project-card">
-              <img src="images/ct-6.jpg" alt="Showroom - vách kính" />
+              <img src="images/ct-6.jpg" alt="Vách nhôm tại trường học" width="1108" height="1477" loading="lazy" />
               <div class="project-body">
-                <h3>Trường học - vách nhôm</h3>
+                <h3>Trường học – vách nhôm</h3>
                 <p>Thi công nhanh • Chuẩn thẩm mỹ</p>
               </div>
             </article>
@@ -183,15 +224,13 @@
         </div>
       </section>
 
-      <section id="vatlieu" class="section">
+      <section id="vatlieu" class="section section-alt">
         <div class="container">
-          <h2>Vật liệu & Chất liệu</h2>
-          <p class="section-desc">
-            Chọn đúng vật liệu để bền – đẹp – an toàn – dễ bảo trì.
-          </p>
+          <h2>Vật liệu &amp; Chất liệu</h2>
+          <p class="section-desc">Chọn đúng vật liệu để bền – đẹp – an toàn – dễ bảo trì.</p>
 
-          <div class="materials-grid">
-            <article class="material-card">
+          <div class="cards-grid cards-3">
+            <article class="card">
               <h3>Nhôm Xingfa</h3>
               <p>Nhôm định hình chắc chắn, phù hợp cửa – vách – mặt dựng.</p>
               <ul>
@@ -201,11 +240,9 @@
               </ul>
             </article>
 
-            <article class="material-card">
+            <article class="card">
               <h3>Phụ kiện</h3>
-              <p>
-                Bản lề, ray trượt, khóa… quyết định độ êm và độ bền của cửa.
-              </p>
+              <p>Bản lề, ray trượt, khóa… quyết định độ êm và độ bền của cửa.</p>
               <ul>
                 <li>Đóng mở nhẹ</li>
                 <li>Chống rơ lắc</li>
@@ -213,8 +250,8 @@
               </ul>
             </article>
 
-            <article class="material-card">
-              <h3>Gioăng & Keo</h3>
+            <article class="card">
+              <h3>Gioăng &amp; Keo</h3>
               <p>Chống nước – chống bụi – cách âm, kín khít hơn.</p>
               <ul>
                 <li>Hạn chế thấm nước</li>
@@ -223,7 +260,7 @@
               </ul>
             </article>
 
-            <article class="material-card">
+            <article class="card">
               <h3>Vách ngăn compact</h3>
               <p>Tấm compact chống ẩm, phù hợp nhà vệ sinh công trình.</p>
               <ul>
@@ -233,15 +270,14 @@
               </ul>
             </article>
 
-          <article class="material-card">
+            <article class="card">
               <h3>Cửa chống côn trùng</h3>
-              <p>Chống ruồi – chống mũi – các con vật nhỏ bay vào nhà.</p>
+              <p>Chống ruồi, muỗi và côn trùng nhỏ bay vào nhà.</p>
               <ul>
-                <li>Bảo về an toàn cho người dùng</li>
-                <li>Tránh các động vật có hại như mũi, ông, ruồi,...</li>
+                <li>Bảo vệ sức khỏe gia đình</li>
+                <li>Ngăn muỗi, ong, ruồi… mà vẫn thoáng gió</li>
               </ul>
             </article>
-
           </div>
         </div>
       </section>
@@ -249,73 +285,83 @@
       <section id="lienhe" class="section">
         <div class="container">
           <h2>Liên hệ / Nhận báo giá</h2>
-          </p>
+          <p class="section-desc">Gọi điện hoặc nhắn Zalo để được khảo sát và báo giá miễn phí.</p>
 
           <div class="contact-grid">
-            <!-- Cột trái: thông tin -->
-            <div class="contact-info">
+            <div class="card contact-info">
               <h3>Thông tin công ty</h3>
-              <h4>Công ty TNHH An Phát</h4>
+              <p class="company-name">Công ty TNHH Gia Công Thương Mại An Phát Vũng Tàu</p>
 
               <ul class="company-list">
                 <li>
-                  <span class="ci-ico">📍</span>
-                  <span class="ci-text">Tổ 16, Ấp Mỹ Thuận, Xã Phước Hải, TPHCM (Vũng Tàu) </span>
+                  <span class="ci-ico" aria-hidden="true">📍</span>
+                  <span>Tổ 16, Ấp Mỹ Thuận, Xã Phước Hải, TP.HCM (Vũng Tàu)</span>
                 </li>
                 <li>
-                  <span class="ci-ico">📞</span>
-                  <span class="ci-text">0937093898</span>
+                  <span class="ci-ico" aria-hidden="true">📞</span>
+                  <a href="tel:0937093898">0937 093 898</a>
                 </li>
                 <li>
-                  <span class="ci-ico">✉️</span>
-                  <span class="ci-text">tranlang300925@gmail.com</span>
+                  <span class="ci-ico" aria-hidden="true">✉️</span>
+                  <a href="mailto:tranlang300925@gmail.com">tranlang300925@gmail.com</a>
                 </li>
-                <div class="company-map">
+              </ul>
+
+              <div class="company-map">
                 <iframe
+                  title="Bản đồ vị trí Công ty An Phát Vũng Tàu"
                   src="https://www.google.com/maps?q=10.4425449,107.2824581&output=embed"
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-                </div>
-              </ul>
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
-                  <!-- CỘT PHẢI: LIÊN HỆ -->
-                  <div class="contact-card">
-                    <h2 class="contact-title">Liên hệ</h2>
-                    <p class="contact-desc">
-                      Nhắn trực tiếp qua Zalo hoặc Facebook để được tư vấn
-                      nhanh.
-                    </p>
 
-                    <div class="contact-actions">
-                      <a
-                        class="contact-btn zalo"
-                        href="https://zalo.me/0937093898"
-                        target="_blank"
-                        rel="noopener"
-                      >
-                        <img src="./images/zalo.png" alt="Zalo" />
-                        <span>Zalo</span>
-                      </a>
+            <div class="card contact-card">
+              <h3>Tư vấn nhanh</h3>
+              <p>Chọn cách liên hệ thuận tiện nhất, An Phát phản hồi sớm.</p>
 
-                      <a
-                        class="contact-btn facebook"
-                        href="https://www.facebook.com/share/17g6ESnYVo/?mibextid=wwXIfr"
-                        target="_blank"
-                        rel="noopener"
-                      >
-                        <img src="./images/facebook.png" alt="Facebook" />
-                        <span>Facebook</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </form>
+              <div class="contact-actions">
+                <a class="contact-btn call" href="tel:0937093898">
+                  <span class="cb-ico" aria-hidden="true">📞</span>
+                  <span><strong>Gọi điện</strong><small>0937 093 898</small></span>
+                </a>
+
+                <a class="contact-btn zalo" href="https://zalo.me/0937093898" target="_blank" rel="noopener">
+                  <img src="images/zalo.png" alt="" width="28" height="28" />
+                  <span><strong>Nhắn Zalo</strong><small>0937 093 898</small></span>
+                </a>
+
+                <a
+                  class="contact-btn facebook"
+                  href="https://www.facebook.com/share/17g6ESnYVo/?mibextid=wwXIfr"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img src="images/facebook.png" alt="" width="28" height="28" />
+                  <span><strong>Facebook</strong><small>Nhắn tin trên Fanpage</small></span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <script src="js/app.js"></script>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p><strong>Công ty TNHH Gia Công Thương Mại An Phát Vũng Tàu</strong></p>
+        <p>Tổ 16, Ấp Mỹ Thuận, Xã Phước Hải, TP.HCM (Vũng Tàu) • <a href="tel:0937093898">0937 093 898</a></p>
+        <p class="copyright">© 2026 An Phát Vũng Tàu</p>
+      </div>
+    </footer>
+
+    <!-- Thanh liên hệ nhanh cố định (chỉ hiện trên điện thoại) -->
+    <nav class="mobile-bar" aria-label="Liên hệ nhanh">
+      <a class="mb-call" href="tel:0937093898">📞 Gọi ngay</a>
+      <a class="mb-zalo" href="https://zalo.me/0937093898" target="_blank" rel="noopener">💬 Nhắn Zalo</a>
+    </nav>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
