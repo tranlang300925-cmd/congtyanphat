@@ -16,6 +16,15 @@ node server.js          # chạy ở http://127.0.0.1:3001
 # Frontend: mở frontend/index.html bằng Live Server (VS Code)
 ```
 
+## Thêm ảnh công trình
+
+1. Bỏ ảnh vào `frontend/images/congtrinh/` (đặt tên không dấu, ví dụ `cua-nhom-biet-thu.jpg`).
+2. Mở `frontend/index.html`, tìm phần `<!-- CÔNG TRÌNH -->`, chép một khối `<figure>…</figure>`,
+   đổi đường dẫn ảnh (2 chỗ), `alt` và chú thích.
+3. Commit + push → web tự cập nhật sau khoảng 1 phút.
+
+Ảnh nên nhỏ hơn 300KB (có thể nén tại squoosh.app, chọn WebP).
+
 ## Deploy
 
 - **Frontend:** push lên `main` → GitHub Actions (`.github/workflows/deploy-pages.yml`) tự deploy thư mục `frontend/`.
