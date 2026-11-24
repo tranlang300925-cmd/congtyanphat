@@ -9,9 +9,15 @@ app.use(express.json());
 
 // ====== ADMIN KEY (bảo vệ API) ======
 // ✅ NÊN đặt ADMIN_KEY trên Render (Environment Variables) thay vì hard-code.
-const ADMIN_KEY = process.env.ADMIN_KEY || "anphat123";
+const ADMIN_KEY = process.env.ADMIN_KEY; // không có mật khẩu mặc định
+if (!ADMIN_KEY) {
+  console.warn("⚠️ Chưa đặt ADMIN_KEY — API /api/quotes (GET) sẽ bị khóa.");
+}
 
 function requireAdminKey(req, res, next) {
+  if (!ADMIN_KEY) {
+    return res.status(503).json({ ok: false, error: "Admin chưa được cấu hình" });
+  }
   const key = req.headers["x-admin-key"];
   if (key !== ADMIN_KEY) {
     return res.status(401).json({ ok: false, error: "Unauthorized" });
