@@ -1,0 +1,14 @@
+# Thư viện Node (cài lại bằng npm install)
+node_modules/
+
+# Dữ liệu khách hàng – KHÔNG đưa lên GitHub
+backend/quotes.json
+quotes.json
+
+# Biến môi trường / mật khẩu
+.env
+.env.*
+
+# Rác hệ điều hành
+.DS_Store
+Thumbs.db
