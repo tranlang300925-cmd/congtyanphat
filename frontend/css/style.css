@@ -819,3 +819,43 @@ p {
     transition: none !important;
   }
 }
+
+/* Công trình tiêu biểu */
+.projects-title {
+  margin-top: 44px;
+  margin-bottom: 12px;
+  color: var(--nau-dam);
+}
+
+.projects {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.projects li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--vien);
+}
+
+.projects strong {
+  display: block;
+  color: var(--chu);
+}
+
+.projects span {
+  font-size: 14px;
+  color: var(--chu-phu);
+}
+
+.projects-note {
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+@media (max-width: 960px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
